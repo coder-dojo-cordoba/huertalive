@@ -1,0 +1,11 @@
+Las fases lunares (o fases de la Luna) se refieren al cambio aparente de la parte visible iluminada del satélite debido 
+a su cambio de posición respecto a la Tierra y el Sol. El ciclo completo, denominado lunación, dura 29 días 12 horas 44 
+minutos y 3 segundos para completarse, durante el cual la luna pasa la nueva fase, cuando su porción iluminada visible 
+vuelve a aumentar gradualmente hasta que, dos semanas después, ocurra la luna llena y, alrededor de las dos semanas 
+siguientes, vuelva de nuevo a disminuir y el satélite entre nuevamente en la nueva fase.
+
+De vez en cuando ocurre una perfecta alineación entre el Sol, la Tierra y la Luna, lo que da lugar a los eclipses.
+ Un eclipse solar ocurre cuando la Luna pasa por delante del disco solar, y solo puede ocurrir en luna nueva, mientras 
+que un eclipse lunar ocurre cuando la Luna pasa a través de la sombra de la Tierra, que solo puede ocurrir en luna llena.
+ Esta transición entre las fases se ha utilizado para medir el tiempo, por lo que muchos calendarios lunares fueron 
+creados basándose en el ciclo lunar.
