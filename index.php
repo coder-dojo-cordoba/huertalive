@@ -75,6 +75,7 @@
 <body class="banneroscuro">
 
     <!--Navbar-->
+    <!--Hola :v-->
     <nav class="navbar navbar-toggleable-md navbar-dark scrolling-navbar success-color-dark">
         <div class="container">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
