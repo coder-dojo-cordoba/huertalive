@@ -9,7 +9,7 @@
     <meta name="google-signin-client_id" content="820318990187-85tc46djiurr5c8poobe510sv23n1mm7.apps.googleusercontent.com">
 
 
-    <title>HuertaLive | Home</title>
+    <title>HuertaLive | Categorias</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
@@ -23,44 +23,44 @@
     <!-- Template styles -->
     <style rel="stylesheet">
         /* TEMPLATE STYLES */
-        
+
         html,
         body,
         .view {
             height: 100%;
         }
         /* Navigation*/
-        
+
         .navbar {
             background-color: transparent;
         }
-        
+
         .scrolling-navbar {
             -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
             -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
             transition: background .5s ease-in-out, padding .5s ease-in-out;
         }
-        
+
         .top-nav-collapse {
             background-color: #1C2331;
         }
-        
+
         footer.page-footer {
             background-color: #1C2331;
             margin-top: -1px;
         }
-        
+
         @media only screen and (max-width: 768px) {
             .navbar {
                 background-color: #1C2331;
             }
         }
         /*Call to action*/
-        
+
         .flex-center {
             color: #fff;
         }
-        
+
         .view {
             background: url("img/fondo.jpg")no-repeat center center fixed;
             -webkit-background-size: cover;
@@ -69,13 +69,13 @@
             background-size: cover;
         }
     </style>
+	<link rel="shortcun-icon" type="x-icon" href="img/logo4.png">
 
 </head>
 
 <body class="banneroscuro">
 
     <!--Navbar-->
-    <!--Hola :v-->
     <nav class="navbar navbar-toggleable-md navbar-dark scrolling-navbar success-color-dark">
         <div class="container">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
@@ -86,44 +86,105 @@
             </a>
             <div class="collapse navbar-collapse" id="navbarNav1">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                     <li class="nav-item">
-                        <a class="nav-link">¿Quienes Somos?</a>
+                    <li class="nav-item">
+            <a class="nav-link" href="index.html">home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="categoria.php" class="nav-link">Categorias</a>
+                        <a class="nav-link">¿Quienes Somos?</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="categorias.html">Categorias</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">Paises</a>
                     </li>
-                   
+
                 </ul>
-                
+
             </div>
         </div>
     </nav>
     <!--/.Navbar-->
-	    
-	    
 
-   
+
+
+
 
     <!--Mask-->
-    <div class="view hm-black-strong banneroscuro">
+    <div class="view hm-black-strong" style="width: 100%; height: 150px;">
         <div class="full-bg-img flex-center">
             <ul class="animated fadeInUp">
-                <li>
-                   <center><img style=" width: 40%; margin-top: -40px;" src="img/logo4.png"></center>
-                <li>
-                    <p><strong>Crea tu propia huerta en casa!</strong></p>
-                </li>
-                <li>
-                   <center><div class="g-signin2" data-onsuccess="onSignIn"></div></center>
+                <li style="margin-top: 30px;">
+                    <center><h2><strong>Categorias</strong></h2></center>
                 </li>
             </ul>
         </div>
+    </div>
+
+    <div class="container">
+        <br>
+        <hr>
+        <div class="row">
+
+            <div class="col-md-4 col-xs-6">
+               <div  class="card wow fadeIn" data-wow-delay="0.4s">
+                        <h3 class="card-header success-color-dark white-text"><center>Hojas</center></h3>
+                        <div class="card-block">
+                         <img style="width:100%;" class="imagen/categorias" src="img/A_acelga_planta.jpg" >
+                        <br>
+                        <center><a class="btn btn-success" href="hojas.html"><strong>ENTRAR</strong></a></center></iframe>
+                        </div>
+            </div>
+            </div>
+
+            <div class="col-md-4 col-xs-6">
+               <div  class="card wow fadeIn" data-wow-delay="0.4s">
+                        <h3 class="card-header success-color-dark white-text"><center>Tuberculos</center></h3>
+                        <div class="card-block">
+                          <img style="width:100%;" class="imagencategorias" src="img/categorias/2.jpg" >
+                        <br>
+                        <center><a class="btn btn-success" href="tuberculos.html">ENTRAR</a></center>
+                        </div>
+            </div>
+            </div>
+
+             <div class="col-md-4 col-xs-6">
+               <div  class="card wow fadeIn" data-wow-delay="0.4s">
+                        <h3 class="card-header success-color-dark white-text"><center>Flor</center></h3>
+                        <div class="card-block">
+                          <img style="width:100%;" class="imagencategorias" src="img/categorias/Brocoli.png" >
+                        <br>
+                        <center><a class="btn btn-success" href="flor.html">ENTRAR</a></center>
+                        </div>
+            </div>
+            </div>
+		
+            
+         
+		      <div class="col-md-4 col-xs-6">
+               <div  class="card wow fadeIn" data-wow-delay="0.4s">
+                        <h3 class="card-header success-color-dark white-text"><center>Fruto</center></h3>
+                        <div class="card-block">
+                          <img style="width:100%;" class="imagencategorias" src="img/Berenjena.jpg" >
+                        <br>
+                        <center><a class="btn btn-success" href="fruto.html">ENTRAR</a></center>
+                        </div>
+            </div>
+            </div>
+		
+		     <div class="col-md-4 col-xs-6">
+               <div  class="card wow fadeIn" data-wow-delay="0.4s">
+                        <h3 class="card-header success-color-dark white-text"><center>Legumbre</center></h3>
+                        <div class="card-block">
+                          <img style="width:100%;" class="imagencategorias" src="img/LegumbresHL.png" >
+                        <br>
+                        <center><a class="btn btn-success" href="legumbre.html">ENTRAR</a></center>
+                        </div>
+            </div>
+            </div>
+
+
+           
     </div>
     <!--/.Mask-->
 
@@ -145,43 +206,43 @@
 
                 <hr class="hidden-md-up">
 
-                
+
 
             </div>
 
         </div>
-           <!--Copyright-->
+        <!--Copyright-->
         <div class="footer-copyright">
             <div class="container-fluid">
-              <strong>CoderDojo 2017</strong>
+                <strong>CoderDojo 2017</strong>
 
             </div>
         </div>
 
-     
+
         <!--/.Copyright-->
 
     </footer>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-<script type="text/javascript">
-function onSuccess(googleUser) {
-      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-    }
-    function onFailure(error) {
-      console.log(error);
-    }
-    function renderButton() {
-      gapi.signin2.render('my-signin2', {
-        'scope': 'profile email',
-        'width': 240,
-        'height': 50,
-        'longtitle': true,
-        'theme': 'dark',
-        'onsuccess': onSuccess,
-        'onfailure': onFailure
-      });
-    }
-</script>
+    <script type="text/javascript">
+        function onSuccess(googleUser) {
+            console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+        }
+        function onFailure(error) {
+            console.log(error);
+        }
+        function renderButton() {
+            gapi.signin2.render('my-signin2', {
+                'scope': 'profile email',
+                'width': 240,
+                'height': 50,
+                'longtitle': true,
+                'theme': 'dark',
+                'onsuccess': onSuccess,
+                'onfailure': onFailure
+            });
+        }
+    </script>
     <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script></center>                 
 
 
