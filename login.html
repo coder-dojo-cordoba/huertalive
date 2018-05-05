@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="google-signin-client_id" content="820318990187-85tc46djiurr5c8poobe510sv23n1mm7.apps.googleusercontent.com">
+	
+    
 
-
-    <title>HuertaLive | Categorias</title>
+    <title>HuertaLive | Entrá</title>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
@@ -23,6 +24,26 @@
     <!-- Template styles -->
     <style rel="stylesheet">
         /* TEMPLATE STYLES */
+        .col-centered {
+            float: none;
+            margin: 0 auto;
+        }
+
+        button {
+            font-family: "Roboto", sans-serif;
+            text-transform: uppercase;
+            outline: 0;
+            background: #4CAF50;
+            width: 100%;
+            border: 0;
+            padding: 10px;
+            margin-top: 15px;
+            color: #FFFFFF;
+            font-size: 14px;
+            -webkit-transition: all 0.3 ease;
+            transition: all 0.3 ease;
+            cursor: pointer;
+        }
 
         html,
         body,
@@ -30,37 +51,37 @@
             height: 100%;
         }
         /* Navigation*/
-
+        
         .navbar {
             background-color: transparent;
         }
-
+        
         .scrolling-navbar {
             -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
             -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
             transition: background .5s ease-in-out, padding .5s ease-in-out;
         }
-
+        
         .top-nav-collapse {
             background-color: #1C2331;
         }
-
+        
         footer.page-footer {
             background-color: #1C2331;
             margin-top: -1px;
         }
-
+        
         @media only screen and (max-width: 768px) {
             .navbar {
                 background-color: #1C2331;
             }
         }
         /*Call to action*/
-
+        
         .flex-center {
             color: #fff;
         }
-
+        
         .view {
             background: url("img/fondo.jpg")no-repeat center center fixed;
             -webkit-background-size: cover;
@@ -69,7 +90,6 @@
             background-size: cover;
         }
     </style>
-	<link rel="shortcun-icon" type="x-icon" href="img/logo4.png">
 
 </head>
 
@@ -82,108 +102,95 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <a class="navbar-brand" href="#">
-                <img style=" width: 20%; margin-top: ;" src="img/logo4-2.png">
+                <img style=" width: 20%" src="img/logo4.png">
             </a>
             <div class="collapse navbar-collapse" id="navbarNav1">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
+                    <!-- <li class="nav-item active">
                         <a href="index.html" class="nav-link">Home</a>
                     </li>
-                        <li class="nav-item">
+                     <li class="nav-item">
                         <a href="about.html" class="nav-link">¿Quienes Somos?</a>
                     </li>
                     <li class="nav-item">
-                        <a href="categorias.html" class="nav-link">Categorias<span class="sr-only">(current)</span></a>
+                        <a href="categorias.html" class="nav-link">Categorias</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link">Paises</a>
                     </li>
                     <li class="nav-item">
-                        <a href="signup.html" class="nav-link">Sign Up</a>
+                        <a class="nav-link">Login<span class="sr-only">(current)</span></a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Sign Up<span class="sr-only">(current)</span></a>
+                    </li> -->
                 </ul>
+                
             </div>
         </div>
     </nav>
     <!--/.Navbar-->
+	    
+	    
+
+   
 
     <!--Mask-->
-    <div class="view hm-black-strong" style="width: 100%; height: 150px;">
+    <div class="view hm-black-strong banneroscuro">
         <div class="full-bg-img flex-center">
-            <ul class="animated fadeInUp">
-                <li style="margin-top: 30px;">
-                   <center><h2><strong>Categorias</strong></h2></center>
+            <!-- <ul class="animated fadeInUp">
+                <li>
+                   <center><img style=" width: 40%; margin-top: -40px;" src="img/logo4.png"></center>
+                <li>
+                    <p><strong>Crea tu propia huerta en casa!</strong></p>
                 </li>
-            </ul>
+                <li>
+                   <center><div class="g-signin2" data-onsuccess="onSignIn"></div></center>
+                </li>
+            </ul> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-10 col-sm-10 col-centered">
+                        <div class="card wow">
+                            <div class="card-block">
+                                <form class="login-form">
+                                    <input type="text" placeholder="Usuario"/>
+                                    <input type="password" placeholder="Contraseña"/>
+                                    <button>Login</button>
+                                    <p class="message" style="color: black; margin-top:5px">¿No tienes cuenta? <a href="#">Regístrate</a></p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
-
-    <div class="container">
-        <br>
-        <hr>
-        <div class="row">
-
-            <div class="col-md-4 col-xs-6">
-               <div  class="card wow fadeIn" data-wow-delay="0.4s">
-                        <h3 class="card-header success-color-dark white-text"><center>Hojas</center></h3>
-                        <div class="card-block">
-                         <img style="width:100%;" class="imagen/categorias" src="img/A_acelga_planta.jpg" >
-                        <br>
-                        <center><a class="btn btn-success" href="hojas.html"><strong>ENTRAR</strong></a></center></iframe>
-                        </div>
-            </div>
-            </div>
-
-            <div class="col-md-4 col-xs-6">
-               <div  class="card wow fadeIn" data-wow-delay="0.4s">
-                        <h3 class="card-header success-color-dark white-text"><center>Tuberculos</center></h3>
-                        <div class="card-block">
-                          <img style="width:100%;" class="imagencategorias" src="img/categorias/2.jpg" >
-                        <br>
-                        <center><a class="btn btn-success" href="tuberculos.html">ENTRAR</a></center>
-                        </div>
-            </div>
-            </div>
-
-             <div class="col-md-4 col-xs-6">
-               <div  class="card wow fadeIn" data-wow-delay="0.4s">
-                        <h3 class="card-header success-color-dark white-text"><center>Flor</center></h3>
-                        <div class="card-block">
-                          <img style="width:100%;" class="imagencategorias" src="img/categorias/Coliflor2.jpg" >
-                        <br>
-                        <center><a class="btn btn-success" href="flor.html">ENTRAR</a></center>
-                        </div>
-            </div>
-            </div>
-		
-            
-         
-		      <div class="col-md-4 col-xs-6">
-               <div  class="card wow fadeIn" data-wow-delay="0.4s">
-                        <h3 class="card-header success-color-dark white-text"><center>Fruto</center></h3>
-                        <div class="card-block">
-                          <img style="width:100%;" class="imagencategorias" src="img/berenjenas2.jpg" >
-                        <br>
-                        <center><a class="btn btn-success" href="fruto.html">ENTRAR</a></center>
-                        </div>
-            </div>
-            </div>
-		
-		     <div class="col-md-4 col-xs-6">
-               <div  class="card wow fadeIn" data-wow-delay="0.4s">
-                        <h3 class="card-header success-color-dark white-text"><center>Legumbre</center></h3>
-                        <div class="card-block">
-                          <img style="width:100%;" class="imagencategorias" src="img/LegumbresHL.png" >
-                        <br>
-                        <center><a class="btn btn-success" href="legumbre.html">ENTRAR</a></center>
-                        </div>
-            </div>
-            </div>
-
-
-           
-    </div>
     <!--/.Mask-->
+
+<script>
+    
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+    <body>
+        
+        
+    </body>
 
     <!--Footer-->
     <footer class="page-footer center-on-small-only success-color-dark">
@@ -197,49 +204,49 @@
                     <img style=" width: 80%; margin-top:-4px; margin-left: -17px;" src="img/logo4.png">
                     <p>Crea tu huerta en casa guiandote desde aquí</p>
 
-                    <p>Versíon: 0.1.1</p>
+                    <p>Versíon: 0.1.2</p>
                 </div>
                 <!--/.First column-->
 
                 <hr class="hidden-md-up">
 
-
+                
 
             </div>
 
         </div>
-        <!--Copyright-->
+           <!--Copyright-->
         <div class="footer-copyright">
             <div class="container-fluid">
-                <strong>CoderDojo 2017</strong>
+              <strong>CoderDojo 2017</strong>
 
             </div>
         </div>
 
-
+     
         <!--/.Copyright-->
 
     </footer>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-    <script type="text/javascript">
-        function onSuccess(googleUser) {
-            console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-        }
-        function onFailure(error) {
-            console.log(error);
-        }
-        function renderButton() {
-            gapi.signin2.render('my-signin2', {
-                'scope': 'profile email',
-                'width': 240,
-                'height': 50,
-                'longtitle': true,
-                'theme': 'dark',
-                'onsuccess': onSuccess,
-                'onfailure': onFailure
-            });
-        }
-    </script>
+<script type="text/javascript">
+function onSuccess(googleUser) {
+      console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
+    }
+    function onFailure(error) {
+      console.log(error);
+    }
+    function renderButton() {
+      gapi.signin2.render('my-signin2', {
+        'scope': 'profile email',
+        'width': 240,
+        'height': 50,
+        'longtitle': true,
+        'theme': 'dark',
+        'onsuccess': onSuccess,
+        'onfailure': onFailure
+      });
+    }
+</script>
     <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script></center>                 
 
 
@@ -257,6 +264,8 @@
 
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
+
+
 
 
 </body>
