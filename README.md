@@ -1,3 +1,3 @@
 # huertalive
 
-2017 Coderdojo Cordoba
+2018 Coderdojo Cordoba
