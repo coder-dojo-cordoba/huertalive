@@ -1,3 +1,3 @@
 # huertalive
 
-2018 Coderdojo Cordoba
+2020 Coderdojo Cordoba
